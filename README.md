@@ -37,6 +37,7 @@ PJT Basement:
 <h2 id="dependencies">
     Dependencies
 </h2>
+
 @babel/cli: 7.7.0
 
 @babel/core: 7.7.2
