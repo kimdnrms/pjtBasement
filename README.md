@@ -22,28 +22,29 @@ PJT Basement:
     설치 및 실행 방법
 </h2>
 
-#### Run PJT
-# 프로젝트 루트 디렉토리로 이동합니다.
+# Run PJT
+프로젝트 루트 디렉토리로 이동합니다.
 cd <다운로드위치>/pjtBasement
 
-# yarn 종속성을 설치해 줍니다.
+yarn 종속성을 설치해 줍니다.
 yarn install
 
-# npm 종속성을 설치해 줍니다.
+npm 종속성을 설치해 줍니다.
 npm i
 
-# webpack-dev-server가 localhost:8080로 자동으로 실행됩니다.
-# <주의> 이미 8000번 포트를 사용하고 있다면 충돌이 날 수 있습니다.
+webpack-dev-server가 localhost:8080로 자동으로 실행됩니다.
+<주의> 이미 8000번 포트를 사용하고 있다면 충돌이 날 수 있습니다.
 npm start
 
 <h2 id="dependencies">
     Dependencies
 </h2>
-"@babel/cli": "^7.7.0",
-"@babel/core": "^7.7.2",
-"@babel/plugin-proposal-class-properties": "^7.7.4",
-"@babel/preset-env": "^7.7.1",
-"babel-loader": "^8.0.6",
-"webpack": "^4.41.2",
-"webpack-cli": "^3.3.10",
+
+"@babel/cli": "^7.7.0"
+"@babel/core": "^7.7.2"
+"@babel/plugin-proposal-class-properties": "^7.7.4"
+"@babel/preset-env": "^7.7.1"
+"babel-loader": "^8.0.6"
+"webpack": "^4.41.2"
+"webpack-cli": "^3.3.10"
 "webpack-dev-server": "^3.9.0"
