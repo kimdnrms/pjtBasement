@@ -24,11 +24,9 @@ PJT Basement:
   - 프로젝트 루트 디렉토리로 이동합니다.
   cd <다운로드위치>/pjtBasement
 
-  - yarn 종속성을 설치해 줍니다.
-  yarn install
-
   - npm 종속성을 설치해 줍니다.
-  npm i
+  npm init
+  npm install
 
   - webpack-dev-server가 localhost:8080로 자동으로 실행됩니다.
   - <주의> 이미 8000번 포트를 사용하고 있다면 충돌이 날 수 있습니다.
