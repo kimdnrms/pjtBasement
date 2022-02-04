@@ -4,7 +4,7 @@ PJT Basement:
  - 새 프로젝트를 시작 할 때 빠른 시작을 위한 Base 구조 작업
  - webpack 환경을 구성
  - webpack-dev-server 환경 구성
- - Atomic 폴더구조로 기본 구조 구현
+ - Atomic 폴더구조로 기본 구조 구현(예정)
  - start script를 통해서 hot-loading 적용(예정)
  - build script를 구성하여 /public 폴더에 빌드한 html, js, css를 export(예정)
 
