@@ -1,0 +1,31 @@
+{
+  "name": "pjt_basement",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack -w"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "description": "PJT Basement: \r  - 새 프로젝트를 시작 할 때 빠른 시작을 위한 Base 구조 작업\r  - webpack 환경을 구성\r  - webpack-dev-server 환경 구성\r  - Atomic 폴더구조로 기본 구조 구현\r  - start script를 통해서 hot-loading 적용(예정)\r  - build script를 구성하여 /public 폴더에 빌드한 html, js, css를 export(예정)",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimdnrms/pjtBasement.git"
+  },
+  "author": "kimdnrms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimdnrms/pjtBasement/issues"
+  },
+  "homepage": "https://github.com/kimdnrms/pjtBasement#readme",
+  "dependencies": {}
+}
