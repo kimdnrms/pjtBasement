@@ -22,7 +22,7 @@ PJT Basement:
     설치 및 실행 방법
 </h2>
 
-# Run PJT
+Run PJT
 프로젝트 루트 디렉토리로 이동합니다.
 cd <다운로드위치>/pjtBasement
 
@@ -39,12 +39,11 @@ npm start
 <h2 id="dependencies">
     Dependencies
 </h2>
-
-"@babel/cli": "^7.7.0"
-"@babel/core": "^7.7.2"
-"@babel/plugin-proposal-class-properties": "^7.7.4"
-"@babel/preset-env": "^7.7.1"
-"babel-loader": "^8.0.6"
-"webpack": "^4.41.2"
-"webpack-cli": "^3.3.10"
-"webpack-dev-server": "^3.9.0"
+@babel/cli: 7.7.0
+@babel/core: 7.7.2
+@babel/plugin-proposal-class-properties: 7.7.4
+@babel/preset-env: 7.7.1
+babel-loader: 8.0.6
+webpack: 4.41.2
+webpack-cli: 3.3.10
+webpack-dev-server: 3.9.0
